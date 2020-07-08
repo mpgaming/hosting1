@@ -1,0 +1,413 @@
+@font-face{
+    font-family: 'Kawasaki';
+    src: url(fuentes/NHL.ttf);
+}
+@font-face{
+    font-family: 'Bebas';
+    src: url(fuentes/BebasNeue-Regular.ttf);
+}
+@font-face{
+    font-family: 'fuenteNav';
+    src: url(fuentes/navegadorFuente.ttf);
+}
+@font-face{
+    font-family: 'fuenteYoung';
+    src: url(fuentes/Young.ttf);
+}
+
+@font-face{
+    font-family: 'fuenteBebas';
+    src: url(fuentes/BebasNeue-Regular.ttf);
+}
+
+@font-face{
+    font-family: 'fuenteMonkey';
+    src: url(fuentes/Bebas.ttf);
+}
+@font-face{
+    font-family: 'TW-Light';
+    src: url(fuentes/TW-Light.ttf);
+}
+@font-face{
+    font-family: 'TW-SemiBold';
+    src: url(fuentes/TW-SemiBold.ttf);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 2px;
+    color:black;
+    position: relative;
+  }
+body {
+    overflow-x: hidden;
+}
+
+
+.text1{
+    position: absolute;
+    font-family: 'fuenteBebas';
+    font-size: 50px;
+    color:#fff;
+    padding-top: 350px;
+    padding-left: 900px;   
+}
+.text2{
+    position: absolute;
+    font-family: 'fuenteBebas';
+    font-size: 100px;
+    color:#fff;
+    padding-top: 400px;
+    padding-left: 900px;   
+}
+
+.modal-body{
+    text-align: left;
+    
+}
+
+.titulo{
+    font-size: 70px;
+    font-family: Bebas;    
+    text-align:center;
+    margin-top: 30px;
+}
+.gametracker{
+position: relative;
+margin-left: 140px;
+margin-top: 20px;
+
+}
+
+
+
+
+ul,ol{
+    list-style: none;
+}
+body{   
+    background:#fffffa;
+    
+}
+.background{
+    display: inline;
+    position: relative;   
+}
+
+.background img{
+    width: 100%;    
+    background-color: black;
+    margin-top:50px;    
+    z-index: 0;
+}
+.background a{   
+    position: absolute;     
+    border: 0;
+    font-family: Bebas;  
+    letter-spacing: 1px; 
+    color:black; 
+    font-size: 17px;
+    
+}
+
+
+.headerFixed{
+    padding-top: 100em;
+}
+
+header{   
+  
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+    background-color: #000000;
+    position: fixed;
+    z-index: 1;     
+              
+}
+
+.wrapper {
+	width:90%; /* Establecemos que el ancho sera del 90% */
+	max-width: width 13px; /* Aqui le decimos que el ancho máximo sera de 1000px */
+	margin:auto; /* Centramos los elementos */
+    overflow:hidden; /* Eliminamos errores de float */   
+    
+}
+
+
+header .logo{
+    font-family: 'Kawasaki';
+    color:#f2f2f2;
+    font-size: 75px;
+    line-height: 100px;    
+    float: left;
+     
+}
+
+header  nav{
+    letter-spacing: 3px;
+    font-family: 'fuenteMonkey';    
+    float:right;
+    line-height:100px;
+     
+}
+header nav a{
+    
+    display: inline-block;
+    color:rgb(68, 230, 68);    
+    padding: 5px 20px;
+    text-decoration: none; 
+    line-height: normal;      
+    font-size: 30px;
+    font-weight: bold;
+    -webkit-transition: all 500ms ease;
+    -o-transition:all 500ms ease;
+    transition: all 500ms ease;
+    
+}
+header div{
+    margin-left: 10px;
+}
+header nav a:hover{
+    border-radius: 50px;
+    background:rgba(241, 241, 241, 0.433);
+    color:rgb(255, 255, 255);
+    text-decoration: none; 
+                 
+}
+
+.header2{   
+    
+    position: fixed;
+    height: 90px;   
+    z-index: 1;
+    background: rgba(0, 0, 0,0.4);
+    
+    
+}
+
+.header2 .logo{
+    
+    line-height: 100px;
+        
+}
+
+.header2 nav{
+    
+    line-height: 100px;
+    
+}
+
+.header3{
+    font-size: 70px;
+    font-family: Bebas;    
+    text-align:center;
+    margin-top: 30px;
+    
+}
+
+.contenido{
+   padding-top: 40px;
+          
+}
+
+.contenido p{
+    
+    font-family: 'fuenteYoung';
+    font-size: 20px;
+    margin-bottom: 1em;
+    margin-left: 10px;
+    
+}
+
+
+footer{
+  font-family:TW-Light;  
+  background: rgb(34, 31, 31);
+  color:#c7c7c7;
+  width: 100%;  
+  padding:10px;    
+    
+}
+.container-footer-all{    
+    max-width:1000px;
+    padding: 20px;
+    margin: auto;
+    width: 100%;
+    font-family: TW-Light;
+}
+.container-footer{
+    text-align: left;
+    margin-left: 60px;
+}
+
+.container-body{
+    display: flex;
+    justify-content: space-around;
+}
+
+.columna1{
+    max-width: 600px;
+}
+.columna1 h1{
+    font-size: 20px;   
+    letter-spacing: 2px;
+    color:rgb(236, 236, 236)
+}
+.columna1 p{
+    font-size: 13px;    
+    margin-top: 20px;    
+    letter-spacing: 1px;
+}
+
+.columna2{   
+    font-size: 13px;
+    max-width: 400px;    
+    letter-spacing: 1px;
+}
+.columna2 h1{
+    font-size: 20px;    
+    letter-spacing: 2px;
+    color:rgb(236, 236, 236)
+}
+.row{
+margin-top: 15px;
+display: flex;
+vertical-align: top;
+}
+
+.row img{
+    width: 30px;
+    height: 30px;
+}
+.row label{
+    margin-top: 10px;
+    margin-left: 20px;    
+}
+.columna3{
+    font-size:13px;    
+    max-width: 400px;
+    
+    letter-spacing: 1px;
+    
+    
+}
+.columna3 h1{
+    font-size: 20px;    
+    letter-spacing: 2px;
+    color:rgb(236, 236, 236) 
+    
+}
+.row2{
+    margin-top: 20px;
+    display: flex;
+}
+.row2 img{
+    width: 36px;
+    height: 36px;
+}
+.row2 label{
+    margin-top: 10px;
+    margin-left: 20px;    
+    
+}
+.countainer-footer{
+    width: 100%;
+    background:black;
+    display: flex;
+    justify-content:  space-between;
+    padding:20px;
+}
+.copyright{
+    color:#c7c7c7;
+    font-size: 12px;
+}
+.information a{
+    text-decoration: none;
+    color:white;
+    font-size: 13px;
+}
+
+
+@media screen and (max-width: 950px){
+    header .logo,
+    header nav{
+        width:100%;
+        text-align:center;
+        line-height:80px       
+        
+    }
+    .header2{
+        height: auto;
+    }
+    .header2 .logo,
+    .header2 nav{
+        line-height: 50px;
+        
+    }
+    .background{
+        height:auto;
+    }
+    .left{
+        left:150px
+    }
+    .right{
+        right: 150px;
+    }
+    .background{
+        margin-top: 30px;
+    }
+    .background .btn1  {
+        font-size: 15px;
+    }
+    .background .btn2  {
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (max-width: 450px){
+    
+    .body{
+        overflow-x: hidden;
+    }
+    .background .img{
+        
+        margin-top: 60px; 
+        width:100%;
+    }
+    
+    .header{
+        height: 80px;
+        width: 100%;
+        line-height: 80px;
+    }
+    .header .logo{
+        font-size: 40px;     
+           
+    }
+    .header nav a{
+        font-size: 10px;
+        margin-left: 1px;        
+    }
+    .header2 nav a{
+        line-height: 100px;
+    }
+    
+    
+    
+   
+
+}
